@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('http://ktmsid390.imad.hasura-app.io/1', function (req, res) {
+app.get('/ui/1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '1.html'));
 });
 
